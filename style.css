@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+/* div */
+.div-1{ 
+    background-color: #ff00bf;
+    width: 200px;
+    height: 200px; 
+}
+/* heading */
+h2{
+    color: red;
+    font-size: 50px;
+}
+/*use-Pseudo selector. */
+.div-1:hover{
+    background-color: rgb(9, 221, 66);
+    cursor: pointer;
+    transition: .5s;
+}
+/* menue-section */
+.header-menu li a{
+    text-decoration: none;
+}
+/* nested selector */
+.header-menu li:first-child a{
+    color: red;
+}
+
+.header-menu li:last-child a{
+    color: red;
+}
+/* nth-child selector */
+.footer-menu li:nth-child(odd) a{
+color: red;
+}
+
